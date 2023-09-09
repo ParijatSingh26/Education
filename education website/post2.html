@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Education Website</title>
+          
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> 
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       
+        <!--Navigation-->
+
+    <nav>
+        <img src="images/logo.jpg"  width="1px" height="45px">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home-->
+
+  <section id="blog-container">
+    <div class="blogs blogpost">
+        <div class="post">
+            <img src="images/b3.jpg" alt="">
+            <h3>Learn App Development In The Easiest Way</h3>
+            <p>Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants (PDA), enterprise digital assistants (EDA), or mobile phones. Such software applications are specifically designed to run on mobile devices, taking numerous hardware constraints into consideration. Common constraints include CPU architecture and speeds, available memory (RAM), limited data storage capacities, and considerable variation in displays (technology, size, dimensions, resolution) and input methods (buttons, keyboard, touch screens with/without styluses). These applications (or 'apps') can be pre-installed on phones during manufacturing or delivered as web applications, using server-side or client-side processing (e.g., JavaScript) to provide an "application-like" experience within a web browser.
+            <br><br>
+            Mobile app development has been steadily growing, in revenues and jobs created. A 2013 analyst report estimates there are 529,000 direct app economy jobs within the EU then 28 members (including the UK), 60 percent of which are mobile app developers.
+            <br><br>
+            As part of the development process, mobile user interface (UI) design is an essential step in the creation of mobile apps. Mobile UI designers consider constraints, contexts, screen space, input methods, and mobility as outlines for design. Constraints in mobile UI design in constraints include the limited attention span of the user and form factors, such as a mobile device's screen size for a user's hand(s). Mobile UI context includes signal cues from user activity, such as the location where or the time when the device is in use, that can be observed from user interactions within a mobile app. Such context clues can be used to provide automatic suggestions when scheduling an appointment or activity or to filter a list of various services for the user.
+            <br><br>
+            Criteria for selecting a development platform usually contains the target mobile platforms, existing infrastructure and development skills. When targeting more than one platform with cross-platform development it is also important to consider the impact of the tool on the user experience. Performance is another important criteria, as research on mobile apps indicates a strong correlation between application performance and user satisfaction. Along with performance and other criteria, the availability of the technology and the project's requirement may drive the development between native and cross-platform environments. 
+            <br><br>
+            To aid the choice between native and cross-platform environments, some guidelines and benchmarks have been published. Typically, cross-platform environments are reusable across multiple platforms, leveraging a native container while using HTML, CSS, and JavaScript for the user interface. In contrast, native environments are targeted at one platform for each of those environments. For example, Android development occurs in the Eclipse IDE using Android Developer Tools (ADT) plugins, Apple iOS development occurs using Xcode IDE with Objective-C and/or Swift, Windows and BlackBerry each have their own development environments.
+            </p>
+            <a href="post3.html">Read Next ?</a>
+        </div>
+    </div>
+  </section>
+
+   <footer>
+       <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+       </div>
+       <div class="footer-col">
+        <h3>Quick links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investor Relations</li>
+        <li>Terms of Service</li>
+       </div>
+       <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+       </div>
+       <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+       </div>
+
+       <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers, </p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email address">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+       </div>
+
+       <div class="copyright">
+        <p>Copyright ©️2023 All rights reserved | This template is made by UK</p>
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+       </div>
+   </footer>
+
+   <script>
+
+       $('#menu-btn').click(function(){
+         $('nav .navigation ul').addClass('active')
+       });
+       $('#menu-close').click(function(){
+         $('nav .navigation ul').removeClass('active')
+       });
+   </script>
+
+   </body>
+
+   </html>
